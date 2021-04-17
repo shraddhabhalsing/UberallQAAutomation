@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="126881" started-at="2021-04-17T20:52:31 CEST" finished-at="2021-04-17T20:54:38 CEST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="14499" started-at="2021-04-17T20:52:31 CEST" finished-at="2021-04-17T20:52:46 CEST">
+      <class name="com.uberall.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.uberall.qa.testcases.LoginTest@a38d7a3]" name="basicSetUp" is-config="true" duration-ms="1320" started-at="2021-04-17T20:52:31 CEST" finished-at="2021-04-17T20:52:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.uberall.qa.testcases.LoginTest@a38d7a3]" name="launchURL" duration-ms="4216" started-at="2021-04-17T20:52:33 CEST" finished-at="2021-04-17T20:52:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:com.uberall.qa.testcases.LoginTest@a38d7a3]" name="Login" duration-ms="5485" started-at="2021-04-17T20:52:38 CEST" data-provider="passSheet" finished-at="2021-04-17T20:52:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_candidate_89131@uberall.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uberall-qa-fun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.uberall.qa.testcases.LoginTest@a38d7a3]" name="closeBrowser" is-config="true" duration-ms="2236" started-at="2021-04-17T20:52:44 CEST" finished-at="2021-04-17T20:52:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.uberall.qa.testcases.LoginTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="17904" started-at="2021-04-17T20:52:46 CEST" finished-at="2021-04-17T20:53:04 CEST">
+      <class name="com.uberall.qa.testcases.SearchLocByNamIdAddrTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.uberall.qa.testcases.SearchLocByNamIdAddrTest@3891771e]" name="basicSetUp" is-config="true" duration-ms="46" started-at="2021-04-17T20:52:46 CEST" finished-at="2021-04-17T20:52:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.uberall.qa.testcases.SearchLocByNamIdAddrTest@3891771e]" name="launchURL" duration-ms="3373" started-at="2021-04-17T20:52:46 CEST" finished-at="2021-04-17T20:52:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:com.uberall.qa.testcases.SearchLocByNamIdAddrTest@3891771e]" name="Login" duration-ms="477" started-at="2021-04-17T20:52:49 CEST" data-provider="passSheet" finished-at="2021-04-17T20:52:50 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_candidate_89131@uberall.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uberall-qa-fun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="SearchLocByNam_Id_Addr(java.lang.String)[pri:3, instance:com.uberall.qa.testcases.SearchLocByNamIdAddrTest@3891771e]" name="SearchLocByNam_Id_Addr" duration-ms="13558" started-at="2021-04-17T20:52:50 CEST" finished-at="2021-04-17T20:53:03 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bielefeld]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchLocByNam_Id_Addr -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.uberall.qa.testcases.SearchLocByNamIdAddrTest@3891771e]" name="closeBrowser" is-config="true" duration-ms="376" started-at="2021-04-17T20:53:03 CEST" finished-at="2021-04-17T20:53:04 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.uberall.qa.testcases.SearchLocByNamIdAddrTest -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="94446" started-at="2021-04-17T20:53:04 CEST" finished-at="2021-04-17T20:54:38 CEST">
+      <class name="com.uberall.qa.testcases.EditLocationIdTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.uberall.qa.testcases.EditLocationIdTest@42607a4f]" name="basicSetUp" is-config="true" duration-ms="53" started-at="2021-04-17T20:53:04 CEST" finished-at="2021-04-17T20:53:04 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.uberall.qa.testcases.EditLocationIdTest@42607a4f]" name="launchURL" duration-ms="3994" started-at="2021-04-17T20:53:04 CEST" finished-at="2021-04-17T20:53:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:2, instance:com.uberall.qa.testcases.EditLocationIdTest@42607a4f]" name="Login" duration-ms="512" started-at="2021-04-17T20:53:08 CEST" data-provider="passSheet" finished-at="2021-04-17T20:53:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa_candidate_89131@uberall.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uberall-qa-fun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="SearchLocByNam_Id_Addr(java.lang.String)[pri:3, instance:com.uberall.qa.testcases.EditLocationIdTest@42607a4f]" name="SearchLocByNam_Id_Addr" duration-ms="10179" started-at="2021-04-17T20:53:08 CEST" finished-at="2021-04-17T20:53:19 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bielefeld]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchLocByNam_Id_Addr -->
+        <test-method status="PASS" signature="EditLocationId()[pri:4, instance:com.uberall.qa.testcases.EditLocationIdTest@42607a4f]" name="EditLocationId" duration-ms="79304" started-at="2021-04-17T20:53:19 CEST" finished-at="2021-04-17T20:54:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditLocationId -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.uberall.qa.testcases.EditLocationIdTest@42607a4f]" name="closeBrowser" is-config="true" duration-ms="314" started-at="2021-04-17T20:54:38 CEST" finished-at="2021-04-17T20:54:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.uberall.qa.testcases.EditLocationIdTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

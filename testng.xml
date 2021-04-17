@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="NamLocIdAddr" value="Bielefeld"></parameter>
+
+	<test name="Test1">
+		<classes>
+			<class name="com.uberall.qa.testcases.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test2">
+		<classes>
+			<class name="com.uberall.qa.testcases.SearchLocByNamIdAddrTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test3">
+		<classes>
+			<class name="com.uberall.qa.testcases.EditLocationIdTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
